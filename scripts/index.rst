@@ -151,3 +151,19 @@ As mentioned above, scripts created within Scalr can also be manually executed o
 
 * Click on scripts on the main toolbar, find your script, and click execute |EXECUTE_SCRIPT|. Choose whether the script should be executed on the entire Farm, a specific Farm Role, or a specific Server.
 * Click on the Farm, Farm Role, or Server dropdown and click Execute Script.
+
+Advanced Configuration
+^^^^^^^^^^^^^^^^^^^^^^
+
+The advanced configuration section is available through all script execution methods, it allows you to control various aspects of how the Action is executed.
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 20,80
+
+   Parameter,Description
+   Execution Mode,Blocking: Scalarizr will wait for your Script to finish executing before firing and processing further events
+                 ,Non-Blocking: Scalarizr will not wait for your Script to finish executing before firing and processing further events
+   Timeout       ,"Length in seconds before the script should timeout. This should be increased for complex actions, especially those that download from the internet."
+   Order         ,Sequence in which rules must be executed. This defaults to the order in which the rules are created.
+   Run As        ,For Scripts and Chef only defines the user to execute the script as on the server.
