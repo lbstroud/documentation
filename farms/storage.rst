@@ -83,6 +83,16 @@ From the screen above you can do the following:
 * Snapshot the selected volume
 * Setup automatic snapshots for a volume
 
+EBS Snapshots can also be taken from within the Servers page by clicking on the actions menu and going down to Create Server Snapshot:
+
+.. image:: images/server_list.png
+           :scale: 50%
+
+On this page you can create a snapshot/image of the root volume as well as snapshots of all volumes attached to the server:
+
+.. image:: images/create_snapshot.png
+           :scale: 50%
+
 Google Cloud Platform Storage Configuration
 -------------------------------------------
 
@@ -171,4 +181,4 @@ All storage volumes for VMware can be managed in the VMware Virtual Disks page. 
 
 From the screen above you can do the following:
 
-* Create and attach storage 
+* Create and attach storage
