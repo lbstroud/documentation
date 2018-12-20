@@ -91,7 +91,7 @@ EBS Snapshots can also be taken from within the Servers page by clicking on the 
 On this page you can create a snapshot/image of the root volume as well as snapshots of all volumes attached to the server:
 
 .. image:: images/create_snapshot.png
-           :scale: 50%
+           :scale: 65%
 
 Google Cloud Platform Storage Configuration
 -------------------------------------------
