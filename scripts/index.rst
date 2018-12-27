@@ -167,3 +167,17 @@ The advanced configuration section is available through all script execution met
    Timeout       ,"Length in seconds before the script should timeout. This should be increased for complex actions, especially those that download from the internet."
    Order         ,Sequence in which rules must be executed. This defaults to the order in which the rules are created.
    Run As        ,For Scripts and Chef only defines the user to execute the script as on the server.
+
+Promoting Scripts to Higher Scopes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Scripts can be promoted to higher scopes to make them more widely available.
+
+.. |PROMO| image:: images/promote.png
+           :scale: 40%
+
+.. |PROMO_S| image:: images/promote_scalr.png
+           :scale: 40%
+
+Any user can promote a script from |ENVIRONMENT| scope to |ACCOUNT| scope using the |PROMO| button.
+Global Admins can promote scripts from the |ACCOUNT| to |SCALR| scope using the |PROMO_S| button.
