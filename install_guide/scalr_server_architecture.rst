@@ -8,7 +8,7 @@ Architecture
 The recommended Scalr HA deployment consists of 6 VMs (Instances) and is outlined in the following diagram:
 
 .. image:: images/Scalr_Arch.png
-   :scale: 50 %
+   :scale: 70 %
 
 It is completely acceptable to group multiple components onto one virtual machine as the load for these services are minimal. The following are the recommended specs for the initial configuration:
 
