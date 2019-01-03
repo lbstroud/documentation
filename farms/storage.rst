@@ -116,7 +116,7 @@ All storage volumes for GCP can be managed in the GCP Persistent Disk page. Go t
 
 From the screen above you can do the following:
 
-* Change the size of the exists disks
+* Change the size of the existing disks
 
 Azure Storage Configuration
 ---------------------------
@@ -133,8 +133,10 @@ All storage volumes for Azure can be managed in the Azure Managed Disk page. Go 
 
 From the screen above you can do the following:
 
-* Create a new Managed Disk
-* Update the size and type of existing disks
+* Create and attached a new Managed Disk
+* Detach a managed disk from a server
+* Update the size and type of existing disks (if the disk is not attached)
+* Snapshot of the selected volume
 
 
 OpenStack Storage Configuration
