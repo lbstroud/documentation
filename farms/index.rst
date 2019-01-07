@@ -256,7 +256,7 @@ Global Variables
 ^^^^^^^^^^^^^^^^
 
 .. image:: images/gv_t.png
-   :scale: 40%
+   :scale: 70%
 
 :ref:`gvs` can be defined at the Farm Role and, if permitted, values can be set for Global Variables defined at higher scopes.
 
