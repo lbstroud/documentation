@@ -40,7 +40,7 @@ Then click on Global Variables: |GV|
 You have a few options when creating a Global Variable:
 
 .. image:: images/new_gv.png
-   :scale: 50%
+   :scale: 70%
 
 .. |LOCK| image:: images/locked.png
    :scale: 55%
