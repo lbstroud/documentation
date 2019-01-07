@@ -45,9 +45,6 @@ You have a few options when creating a Global Variable:
 .. |LOCK| image:: images/locked.png
    :scale: 55%
 
-.. |MAN| image:: images/mandatory.png
-   :scale: 25%
-
 .. |HID| image:: images/hidden.png
    :scale: 25%
 
@@ -61,10 +58,11 @@ You have a few options when creating a Global Variable:
    Description,Metadata,Description of the Global Variable
    |HID| Hidden,Flag,The value cannot be seen at a lower scope
    |LOCK| Locked,Flag,The value cannot be changed at a lower scope. However if a required scope is set the value can be changed at that scope.
-   |MAN| Mandatory,Flag,The value must be set at a specific scope
-   Custom,Format,A regular expression can be created for pattern validation
-   JSON,Format,The values must be in a JSON format
-   List,Format,The values will be presented in a dropdown
+   Required,Flag,The value must be set at a specific scope
+   Custom,Type,A regular expression can be created for pattern validation
+   JSON,Type,The values must be in a JSON format
+   List,Type,The values will be presented in a dropdown
+   Remote List,Type,The values will be pulled from a remote list
 
 Once the Global Variable is created, click save and you will be able to use it in the various use cases below.
 
