@@ -77,15 +77,16 @@ Scalarizr needs to be able to communicate bi-directionally with the Scalr server
 =====   ============   =========================================  =================================
 Port    Protocol       Direction                                  Usage
 =====   ============   =========================================  =================================
-80       TCP           Cloud Instance > Scalr Server              Scalarizr Agent
-443      TCP           Cloud Instance > Scalr Server              Scalarizr Agent
-5671     TCP           Cloud Instance > Scalr Server              Scalarizr Agent (rabbitmq)
+443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
+80       TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+443      TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+5671     TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent (rabbitmq)
 6275     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 6276     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 6291     TCP           Between Scalr Server Nodes (excluding DB)  InfluxDB
-8008     TCP           Scalr Server > Cloud Instance              Scalarizr Agent (update service)
-8010     TCP           Scalr Server > Cloud Instance              Scalarizr Agent (API)
-8013     TCP           Scalr Server > Cloud Instance              Scalarizr Agent (control)
+8008     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (update service)
+8010     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (API)
+8013     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (control)
 15671    TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 =====   ============   =========================================  =================================
 
