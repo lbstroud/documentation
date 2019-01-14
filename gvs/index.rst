@@ -62,9 +62,23 @@ You have a few options when creating a Global Variable:
    Custom,Type,A regular expression can be created for pattern validation
    JSON,Type,The values must be in a JSON format
    List,Type,The values will be presented in a dropdown
-   Remote List,Type,The values will be pulled from a remote list
+   Remote List,Type,The values will be pulled from a remote list. The response must be JSON.
 
 Once the Global Variable is created, click save and you will be able to use it in the various use cases below.
+
+Using Remote Lists
+^^^^^^^^^^^^^^^^^^
+
+The Remote List variable type is used to pull Global Variable values from external sources. An Endpoint must be setup in Scalr to use a Remote List for a Global Variable value. The Endpoint will pull values from the external source and translate the list into JSON for Scalr to pull from. Please see more on Endpoints here: :ref:`webhooks`. There are a few requirements for Remote List Endpoints:
+
+* The values list must be returned to Scalr in JSON format.
+* A TTL setting is required in the JSON. The TTL should have a numerical value, this value will determine the time in seconds that the endpoint will recheck for values. If no value is provided, Scalr will default the TTL setting to 0.
+
+.. |remote_gv| raw:: html
+
+   <a href="https://github.com/scalr-tutorials/scalr-remote-var-webhook" target="_blank">Scalr Remote Global Variable Example</a>
+
+Please see the following link for an example. This Webhook returns a JSON file (example.json) to Scalr to read from, generally the info in this file would be supplied by a backend database or external source: |remote_gv||NEWWIN|
 
 Using Global Variables in Scripts
 ---------------------------------
@@ -107,7 +121,7 @@ Ruby:
 Global Variable Interpolation
 -----------------------------
 
-Certain fields in the Scalr User Interface support Global Variable interpolation. These fields are identified with the |GVI| symbol. Global Variables can be entered into fields using the following placeholder syntax: ``{GLOBAL_VARIABLE_NAME}``. When the value of field is required, e.g. when a server is being provisioned, or when a :ref:`Policy <policy_engine>` is being applied, the Global Variable placeholders will be replaced with their actual value.
+Certain fields in the Scalr User Interface support Global Variable interpolation. These fields are identified with the |GVI| symbol. Global Variables can be entered into fields using the following placeholder syntax: ``{GLOBAL_VARIABLE_NAME}``. When the value of field is required, e.g. when a server is being provisioned, or when a ::`Policy <policy_engine>` is being applied, the Global Variable placeholders will be replaced with their actual value.
 
 Using Global Variables in Policies
 ----------------------------------
