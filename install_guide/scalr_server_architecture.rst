@@ -8,7 +8,7 @@ Architecture
 The recommended Scalr HA deployment consists of 6 VMs (Instances) and is outlined in the following diagram:
 
 .. image:: images/Scalr_Arch.png
-   :scale: 90 %
+   :scale: 60 %
 
 It is completely acceptable to group multiple components onto one virtual machine as the load for these services are minimal. The following are the recommended specs for the initial configuration:
 
@@ -30,12 +30,10 @@ It is completely acceptable to group multiple components onto one virtual machin
   * 4CPU, 8GB RAM
   * 50GB storage mounted on /opt/scalr-server on each server
 
-* 2 VMs for DB (active/active):
+* 2 VMs for DB (active/passive):
 
   * 4CPU, 8GB RAM (A server is not required, this can be a cloud based database service like AWS RDS)
   * 750GB storage mounted on /opt/scalr-server on each server
-
-.. note::  The database setup is Active/Active, but does not currently support automatic failover. Support for automatic failover will be coming soon!
 
 Supported Operating Systems:
 -----------------------------
