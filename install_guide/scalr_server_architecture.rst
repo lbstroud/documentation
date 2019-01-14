@@ -30,12 +30,10 @@ It is completely acceptable to group multiple components onto one virtual machin
   * 4CPU, 8GB RAM
   * 50GB storage mounted on /opt/scalr-server on each server
 
-* 2 VMs for DB (active/active):
+* 2 VMs for DB (active/passive):
 
   * 4CPU, 8GB RAM (A server is not required, this can be a cloud based database service like AWS RDS)
   * 750GB storage mounted on /opt/scalr-server on each server
-
-.. note::  The database setup is Active/Active, but does not currently support automatic failover. Support for automatic failover will be coming soon!
 
 Supported Operating Systems:
 -----------------------------
