@@ -148,7 +148,7 @@ There are two possible hostname sources: a hostname template or an external sour
 
 **Load Balancer**. You must link a Load Balancer Service to the Farm and associate the LB with the Farm Role via that interface. The Network tab will show the linked LB once this is done. See :ref:`cloud_services` for more details.
 
-**Subnet and IP**. You can amend the subnet settings made when the Farm Role was added and choose how to assign IP's.
+**Subnet and IP**. You can amend the subnet settings made when the Farm Role was added and choose how to assign IP's. Static IPs can be set for AWS and Azure private IPs if those IPs are available in the cloud provider.
 
 .. _farm_role_orchestration:
 
