@@ -78,7 +78,7 @@ The Remote List variable type is used to pull Global Variable values from extern
 
    <a href="https://github.com/scalr-tutorials/scalr-remote-var-webhook" target="_blank">Scalr Remote Global Variable Example</a>
 
-Please see the following link for an example. This Webhook returns a JSON file (example.json) to Scalr to read from, generally the info in this file would be supplied by a backend database or external source: |remote_gv||NEWWIN|
+Please see the following link for an example. This Webhook returns a JSON file (example.json) to Scalr to read from, generally the info in this file would be supplied by a backend database or external source: |remote_gv| |NEWWIN|
 
 Using Global Variables in Scripts
 ---------------------------------
