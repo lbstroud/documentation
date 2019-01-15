@@ -61,7 +61,7 @@ You have a few options when creating a Global Variable:
    Required,Flag,The value must be set at a specific scope
    Custom,Type,A regular expression can be created for pattern validation
    JSON,Type,The values must be in a JSON format
-   List,Type,The values will be presented in a dropdown
+   List,Type,The label is what is presented in the dropdown and the value is what is used on the backend. If a label is not used, the value will be presented in the dropdown.
    Remote List,Type,The values will be pulled from a remote list. The response must be JSON.
 
 Once the Global Variable is created, click save and you will be able to use it in the various use cases below.
