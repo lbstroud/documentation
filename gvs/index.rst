@@ -73,6 +73,8 @@ The Remote List variable type is used to pull Global Variable values from extern
 
 * The values list must be returned to Scalr in JSON format.
 * A TTL setting is required in the JSON. The TTL should have a numerical value, this value will determine the time in seconds that the endpoint will recheck for values. If no value is provided, Scalr will default the TTL setting to 0.
+* Values cannot have more than 255 characters.
+* There is a max number of 64 labels.
 
 .. |remote_gv| raw:: html
 
