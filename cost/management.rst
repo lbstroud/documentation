@@ -120,7 +120,7 @@ Scalr also supports Cost Management for the following Kubernetes platforms:
 
 * Self Managed Kubernetes Clusters
 * Google GKE
-* Amazon EKS - Future Release
+* Amazon EKS
 
 The data populated within the dashboard is summarized from all Kubernetes Clusters managed at the |ACCOUNT| scope.
 
