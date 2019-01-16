@@ -93,8 +93,8 @@ From the screen above you can do the following:
 
 If storage is extended on a volume on a running server in AWS, the volume may need to be detached and/or the server should be stopped prior to doing this. Please see the AWS guidance on this:
 
-* |aws_storage_link1||NEWWIN|
-* |aws_storage_link2||NEWWIN|
+* |aws_storage_link1| |NEWWIN|
+* |aws_storage_link2| |NEWWIN|
 
 .. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
 
