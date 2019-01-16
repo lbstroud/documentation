@@ -92,7 +92,7 @@ When defining Roles you can define new :ref:`gvs` for use in scripts etc as desc
 You may also need to set the value of Global Variables that have been defined at the same or higher scopes. Global Variables defined at the same or higher scope as the role are automatically associated with the Role and will be visible when clicking on the Global Variables tab of the Role screen.
 
 .. image:: images/role_gv.png
-   :scale: 50%
+   :scale: 70%
 
 If the value for a variable is already set then the Role can use that value or overwrite it if the variable is configured to allow it.
 

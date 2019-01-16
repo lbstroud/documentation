@@ -5,7 +5,7 @@ The information below is based on the standard Scalr deployment, if you have any
 
 Architecture
 ------------
-Scalr’s architecture consist of 8 modules (Proxy, App, Session, RabbitMQ, Worker, InfluxDB, Main DB, and Cost Analytics DB).  The recommended Scalr HA deployment consists of 6 VMs (Instances) and is outlined in the following diagram:
+The recommended Scalr HA deployment consists of 6 VMs (Instances) and is outlined in the following diagram:
 
 .. image:: images/Scalr_Arch.png
    :scale: 60 %
@@ -17,12 +17,13 @@ It is completely acceptable to group multiple components onto one virtual machin
 
   * 4CPU, 8GB RAM
   * 50GB storage mounted on /opt/scalr-server on each server
-  * NOTE: Worker should only be enabled on one server.
+  * NOTE: Worker should only be enabled on one server. The worker services can be dormant on another server and turned on if a failover is necessary.
 
 * 1 VM for InfluxDB:
 
   * 4CPU, 16GB RAM
   * 100GB storage mounted on /opt/scalr-server on each server
+  * Note: A backup of the database is recommended as server statistics resides in InfluxDB.
 
 * 2 VMs for Proxy, Sessions, and App:
 

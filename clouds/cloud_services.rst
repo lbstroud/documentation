@@ -47,4 +47,4 @@ Configured via the main menu.
 .. |PLUS| image:: images/plus.png
           :scale: 30%
 
-.. note:: New Cloud Services configuration can also be done directly from the Farm Configuration. After selecting which service to link the list of available services also includes the |PLUS| button which will present the screen for configuring a new instance of the selected service.
+.. note:: New Cloud Services (except Azure) configuration can also be done directly from the Farm Configuration. After selecting which service to link the list of available services also includes the |PLUS| button which will present the screen for configuring a new instance of the selected service.
