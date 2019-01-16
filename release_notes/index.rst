@@ -19,7 +19,40 @@ Docs Links
 7.13.0
 ^^^^^^
 
-Coming Soon
+* Global Variable Remote Lists:
+https://docs.scalr.com/en/latest/gvs/index.html#using-remote-lists
+
+* Script Promotion to |SCALR| Scope:
+https://docs.scalr.com/en/latest/scripts/index.html#promoting-scripts-to-higher-scopes
+
+* Images/Roles Promotion |SCALR| Scope:
+https://docs.scalr.com/en/latest/images_roles/index.html#cloning-promoting-and-using
+
+* Azure Storage Updates:
+https://docs.scalr.com/en/latest/farms/storage.html#azure-storage-configuration
+
+* VMware Persistent Storage:
+http://docs.scalr.com/en/latest/farms/storage.html#configuring-storage
+
+* Azure SQL Service:
+https://docs.scalr.com/en/latest/reference/cloud_services.html#sql-server
+https://docs.scalr.com/en/latest/clouds/cloud_services.html
+https://docs.scalr.com/en/latest/farms/link_cloud_services.html
+
+* Azure Static IP Addresses:
+https://docs.scalr.com/en/latest/farms/index.html#network
+
+* Openstack Cost Manager:
+https://docs.scalr.com/en/latest/cost/management.html#currently-supported-cloud-service-providers
+
+* Amazon EKS Cost Manager:
+https://docs.scalr.com/en/latest/cost/management.html#kubernetes-cost-dashboard
+
+* AWS - Create Server Snapshot and Include EBS Volumes
+https://docs.scalr.com/en/latest/farms/storage.html#aws-storage-configuration
+
+* Scripts "Run As" Option:
+https://docs.scalr.com/en/latest/scripts/index.html#advanced-configuration
 
 7.12.0
 ^^^^^^
