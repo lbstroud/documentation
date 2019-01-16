@@ -71,7 +71,7 @@ HostInit Event
 
 .. csv-table::
    :widths: 30,100
-   :file: csv/HostInit.csv
+   :file: csv/Hostinit.csv
 
 ----
 
@@ -80,7 +80,7 @@ HostInitFailed Event
 
 .. csv-table::
    :widths: 30,100
-   :file: csv/HostInitFailed.csv
+   :file: csv/HostinitFailed.csv
 
 ----
 
