@@ -30,6 +30,9 @@ Cloning, Promoting and Using
 .. |PROMO| image:: images/promote.png
            :scale: 40%
 
+.. |PROMO_S| image:: images/promote_scalr.png
+           :scale: 40%
+
 .. |USE| image:: images/use.png
            :scale: 40%
 
@@ -41,5 +44,8 @@ Additional Image and Role options are available from the right hand panel when a
 
    Option,For, Description
    Clone |CLONE|,Role,Create a new role based on an existing Role
-   Promote |PROMO|,"Image, Role",Promote to a higher scope to make more widely available
+   Promote |PROMO|,"Image, Role",Promote to a |ACCOUNT| scope to make more widely available.
+   Promote |PROMO_S|,"Image, Role",Promote to |SCALR| scope. Only available to Global Admins.
    Use |USE|,Role,Add the Role directly to a Farm from the list
+
+.. note:: Promoting a role will promote all linked images that are at the same scope.

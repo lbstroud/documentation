@@ -30,6 +30,7 @@ Cost Manager currently supports the following Cloud Service Providers:
 	* Microsoft Azure - Azure standard billing and Azure Enterprise Agreements Billing
 	* Google Cloud Platform - Google Cloud Billing
 	* VMWare - Custom Price Lists
+	* Openstack - Custom Price Lists
 	* Kubernetes - Custom Price Lists
 
 Please see the :ref:`cloud_creds` page to learn how to enable billing for Public Clouds.
@@ -50,6 +51,11 @@ In order to view cost data by desired Tags, the Tags need to be enabled. You can
 .. image:: images/EnablingTags.png
    :scale: 60 %
 
+Filtering by Tags is  available for:
+
+* AWS
+* VMware
+
 Price Books
 -----------
 Scalr Cost Manager Price Books are a new component of Scalr Cost Manager that provide an intuitive way to set prices for cloud resources. Price Books allow administrators to create Products, which can be based on one or more attributes such as cpu, memory, disk, and Kubernetes master. Pricing and price metrics can be established for Products with optional pricing conditions like location and/or operating system.
@@ -58,7 +64,7 @@ Scalr Cost Manager Price Books are a new component of Scalr Cost Manager that pr
 
 Scalr uses the Price Book entries to calculate the cost of all servers that are accessible via the Cloud Credentials, not just those that are managed by Scalr. After launching a Farm and/or creating Price Book entries it can take up to 1 hour for the costs to show up in Cost Manager.
 
-Cost Manager Price Books currently supports VMWare and Kubernetes (see Kubernetes section below).
+Cost Manager Price Books currently supports VMWare, Openstack, and Kubernetes (see Kubernetes section below).
 
 .. image:: images/price_books.png
    :scale: 60%

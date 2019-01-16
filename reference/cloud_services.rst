@@ -584,6 +584,20 @@ Machine Learning
     Description,Scalr Support,External Docs
     "Machine learning enables computers to learn from data and experiences and to act without being explicitly programmed.","Cloud Service Gateway",|LINK_48| |NEWWIN|
 
+SQL Server
+^^^^^^^^^^
+
+.. |LINK_49| raw:: html
+
+        <a href="https://docs.microsoft.com/en-us/azure/sql-database/sql-database-logical-servers" target="_blank">Azure SQL Server</a>
+
+.. csv-table::
+    :header-rows: 1
+    :widths: 40,40,20
+
+    Description,Scalr Support,External Docs
+    "A logical server acts as a central administrative point for multiple single or pooled databases, logins, firewall rules, auditing rules, threat detection policies, and failover groups.","Creation and management of SQL Servers.",|LINK_49| |NEWWIN|
+
 
 Google Cloud Platform Features and Services
 -------------------------------------------
