@@ -105,10 +105,11 @@ Capability                                   Agentless      Agent Installed
 Launch, Terminate, Suspend, Resume            Yes             Yes
 Security Group management                     Yes             Yes
 Tagging                                       Yes             Yes
-Autoscaling                                   No              Yes
+Autoscaling (minimum servers)                 Yes             Yes
+Autoscaling (metric based)                    No              Yes
 Orchestration (script execution)              No              Yes
 Monitoring                                    No              Yes
-Storage Volume addition	                      No              Yes
+Storage Volume Mounting	                      No              Yes
 Software Firewall/ iptables management		    No              Yes
 ========================================    ============   ==================
 
