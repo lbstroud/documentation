@@ -83,6 +83,21 @@ From the screen above you can do the following:
 * Snapshot the selected volume
 * Setup automatic snapshots for a volume
 
+.. |aws_storage_link1| raw:: html
+
+   <a href="https://aws.amazon.com/documentation/iam/" target="_blank">Detaching Storage to Modify Volumes</a>
+
+.. |aws_storage_link2| raw:: html
+
+    <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/stop-start.html" target="_blank">Starting and Stopping an Instance to Modify an EBS Volume</a>
+
+If storage is extended on a volume on a running server in AWS, the volume may need to be detached and/or the server should be stopped prior to doing this. Please see the AWS guidance on this:
+
+* |aws_storage_link1||NEWWIN|
+* |aws_storage_link2||NEWWIN|
+
+.. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
+
 EBS Snapshots can also be taken from within the Servers page by clicking on the actions menu and going down to Create Server Snapshot:
 
 .. image:: images/server_list.png
@@ -92,6 +107,7 @@ On this page you can create a snapshot/image of the root volume as well as snaps
 
 .. image:: images/create_snapshot.png
            :scale: 65%
+
 
 Google Cloud Platform Storage Configuration
 -------------------------------------------
@@ -184,3 +200,7 @@ All storage volumes for VMware can be managed in the VMware Virtual Disks page. 
 From the screen above you can do the following:
 
 * Create and attach storage
+
+If storage is extended on a volume on a running server in VMware, the server should be stopped prior to doing this.
+
+.. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
