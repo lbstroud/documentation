@@ -77,15 +77,16 @@ Scalarizr needs to be able to communicate bi-directionally with the Scalr server
 =====   ============   =========================================  =================================
 Port    Protocol       Direction                                  Usage
 =====   ============   =========================================  =================================
-80       TCP           Cloud Instance > Scalr Server              Scalarizr Agent
-443      TCP           Cloud Instance > Scalr Server              Scalarizr Agent
-5671     TCP           Cloud Instance > Scalr Server              Scalarizr Agent (rabbitmq)
+443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
+80       TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+443      TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+5671     TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent (rabbitmq)
 6275     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 6276     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 6291     TCP           Between Scalr Server Nodes (excluding DB)  InfluxDB
-8008     TCP           Scalr Server > Cloud Instance              Scalarizr Agent (update service)
-8010     TCP           Scalr Server > Cloud Instance              Scalarizr Agent (API)
-8013     TCP           Scalr Server > Cloud Instance              Scalarizr Agent (control)
+8008     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (update service)
+8010     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (API)
+8013     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (control)
 15671    TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 =====   ============   =========================================  =================================
 
@@ -104,10 +105,11 @@ Capability                                   Agentless      Agent Installed
 Launch, Terminate, Suspend, Resume            Yes             Yes
 Security Group management                     Yes             Yes
 Tagging                                       Yes             Yes
-Autoscaling                                   No              Yes
+Autoscaling (minimum servers)                 Yes             Yes
+Autoscaling (metric based)                    No              Yes
 Orchestration (script execution)              No              Yes
 Monitoring                                    No              Yes
-Storage Volume addition	                      No              Yes
+Storage Volume Mounting	                      No              Yes
 Software Firewall/ iptables management		    No              Yes
 ========================================    ============   ==================
 
