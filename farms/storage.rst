@@ -85,7 +85,7 @@ From the screen above you can do the following:
 
 .. |aws_storage_link1| raw:: html
 
-   <a href="https://aws.amazon.com/documentation/iam/" target="_blank">Detaching Storage to Modify Volumes</a>
+   <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-modify-volume.html" target="_blank">Detaching Storage to Modify Volumes</a>
 
 .. |aws_storage_link2| raw:: html
 
