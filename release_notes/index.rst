@@ -54,6 +54,9 @@ https://docs.scalr.com/en/latest/farms/storage.html#aws-storage-configuration
 * Scripts "Run As" Option:
 https://docs.scalr.com/en/latest/scripts/index.html#advanced-configuration
 
+* Azure Bring Your Own License:
+https://docs.scalr.com/en/latest/farms/index.html#azure
+
 7.12.0
 ^^^^^^
 
