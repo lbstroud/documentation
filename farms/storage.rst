@@ -91,7 +91,7 @@ From the screen above you can do the following:
 
     <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/stop-start.html" target="_blank">Starting and Stopping an Instance to Modify an EBS Volume</a>
 
-If storage is extended on a volume on a running server in AWS, the volume may need to be detached and/or the server should be stopped prior to doing this. Please see the AWS guidance on this:
+If you are planning on extending storage on a volume on a running server in AWS, the volume may need to be detached and/or the server should be stopped prior to doing this. Please see the AWS guidance on this:
 
 * |aws_storage_link1| |NEWWIN|
 * |aws_storage_link2| |NEWWIN|
@@ -201,6 +201,6 @@ From the screen above you can do the following:
 
 * Create and attach storage
 
-If storage is extended on a volume on a running server in VMware, the server should be stopped prior to doing this.
+If you are planning on extending storage on a volume on a running server in VMware, the server should be stopped prior to doing this.
 
 .. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
