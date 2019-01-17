@@ -103,6 +103,17 @@ To extend storage, go to the AWS Volumes page, find your volume and click on the
 
 .. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
 
+EBS Snapshots can also be taken from within the Servers page by clicking on the actions menu and going down to Create Server Snapshot:
+
+.. image:: images/server_list.png
+           :scale: 50%
+
+On this page you can create a snapshot/image of the root volume as well as snapshots of all volumes attached to the server:
+
+.. image:: images/create_snapshot.png
+           :scale: 65%
+
+
 Google Cloud Platform Storage Configuration
 -------------------------------------------
 
@@ -126,7 +137,7 @@ All storage volumes for GCP can be managed in the GCP Persistent Disk page. Go t
 
 From the screen above you can do the following:
 
-* Change the size of the exists disks
+* Change the size of the existing disks
 
 Azure Storage Configuration
 ---------------------------
@@ -143,8 +154,10 @@ All storage volumes for Azure can be managed in the Azure Managed Disk page. Go 
 
 From the screen above you can do the following:
 
-* Create a new Managed Disk
-* Update the size and type of existing disks
+* Create and attached a new Managed Disk
+* Detach a managed disk from a server
+* Update the size and type of existing disks (if the disk is not attached)
+* Snapshot of the selected volume
 
 
 OpenStack Storage Configuration
@@ -192,11 +205,10 @@ All storage volumes for VMware can be managed in the VMware Virtual Disks page. 
 From the screen above you can do the following:
 
 * Create and attach storage
-* Extend storage
 
 If you are planning on extending storage on a volume on a running server in VMware, the server should be stopped prior to doing this. To extend storage, go to the VMware Virtual Disks page, find your volume and click on the gear:
 
 .. image:: images/vmware_extend_storage.png
    :scale: 50%
-
+   
 .. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
