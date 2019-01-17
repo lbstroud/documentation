@@ -96,6 +96,11 @@ If you are planning on extending storage on a volume on a running server in AWS,
 * |aws_storage_link1| |NEWWIN|
 * |aws_storage_link2| |NEWWIN|
 
+To extend storage, go to the AWS Volumes page, find your volume and click on the gear:
+
+.. image:: images/storage_aws3.png
+   :scale: 70%
+
 .. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
 
 EBS Snapshots can also be taken from within the Servers page by clicking on the actions menu and going down to Create Server Snapshot:
@@ -195,12 +200,15 @@ VMware based Farm Roles can have additional virtual disks added. The Volume Sett
 All storage volumes for VMware can be managed in the VMware Virtual Disks page. Go to the main Scalr menu dropdown on the top left |MENU_ENV|, click on VMware and then Virtual Disks:
 
 .. image:: images/storage_vmware2.png
-   :scale: 50%
+   :scale: 60%
 
 From the screen above you can do the following:
 
 * Create and attach storage
 
-If you are planning on extending storage on a volume on a running server in VMware, the server should be stopped prior to doing this.
+If you are planning on extending storage on a volume on a running server in VMware, the server should be stopped prior to doing this. To extend storage, go to the VMware Virtual Disks page, find your volume and click on the gear:
+
+.. image:: images/vmware_extend_storage.png
+   :scale: 70%
 
 .. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
