@@ -83,16 +83,22 @@ Click Save and your screen should look similar like this after Scalr has validat
 .. image:: images/VMWare-creds-2.png
    :scale: 40%
 
-
-Validating the Connection to VMWare
------------------------------------
-
 You can now proceed to adding these credentials to your |ENVIRONMENTS|.
+
+Adding Instance Types
+---------------------
+
+To ensure our customers have a uniform experience across clouds, we have implemented the idea of instance types for VMware. End users will have the ability to add custom instance types when they are building Farm Roles (if policy allows), but as an Admin you can restrict them to specific types. To create instance types, go to the |SCALR| scope, click on the main Scalr dropdown |MENU_SCALR| , and go down to instance types. Once on the instance types page, you can define the following:
+
+.. image:: images/instance_types.png
+   :scale: 40%
+
+These instance types will now apply to all VMware environments.
 
 VMware Activities that Impact Scalr
 ------------------------------------
 
-If the following events take place directly in VMware, Scalr could be negatively impacted:
+For informational purposes, if the following events take place directly in VMware, Scalr could be negatively impacted:
 
 * UnregisterVM_Task of Virtual Machines and Templates that are used by Scalr. Registering them back into Scalr will not resolve the issue as the VMware UUID will change.
 * Scalr will give the following error if DRS/SRDS is disabled for Compute Resources/Storage Pods on running Farms: "Unable to launch instance: Object Datastore with managed object reference: was not found." Reenabling that functionality or editing the Farm fixes the issue. A warmup of VMware cache will be required to get everything fully functional.
