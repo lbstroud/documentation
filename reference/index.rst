@@ -87,6 +87,7 @@ Port    Protocol       Direction                                  Usage
 8008     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (update service)
 8010     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (API)
 8013     TCP           Scalr Worker Server > Cloud Instance       Scalarizr Agent (control)
+11211    TCP           Scalr Proxy Server > Scalr Proxy Server    Memcached Synchronisation
 15671    TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 =====   ============   =========================================  =================================
 
