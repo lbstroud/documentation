@@ -190,4 +190,4 @@ It is possible to limit which users can run scripts as root, to do this go to th
 .. image:: images/limit_script.png
    :scale: 60%
 
-Find out more about managing ACLs here:ref:`access_control`
+Find out more about managing ACLs here: ref:`access_control`
