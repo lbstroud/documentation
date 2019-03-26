@@ -161,7 +161,7 @@ From the screen above you can do the following:
 
 If you are planning on extending storage on a volume on a running server in Azure, the volume may need to be detached and/or the server should be stopped prior to doing this. Please see the Azure guidance on this:
 
-.. |aws_storage_link1| raw:: html
+.. |azure_storage_link1| raw:: html
 
    <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks" target="_blank">Deallocate Server to Modify Volumes</a>
 
