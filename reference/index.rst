@@ -59,10 +59,13 @@ Scalarizr is supported on the following operating systems and versions.
 Operating System                            Supported Versions
 ========================================    ================================
 Ubuntu                                      14.04 - 18.04 LTS
-Debian                                      6.x - 7.x
+Debian                                      6.x - 8.x
 RHEL / CentOS                               5.x - 7.x
+OEL                                         5.x - 7.x
+Redhat                                      5.x - 7.x
 Windows Server                              2008 R2, 2012(all), and 2016
 Suse                                        11.3, 11.4, and 12.x
+Amazon Linux                                2, 2013.03, 2014.03, 2014.09, 2015.03, 2015.09, 2016.03, 2016.09
 ========================================    ================================
 
 .. supported-os-end
