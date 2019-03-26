@@ -111,4 +111,4 @@ Enable Cost Tags
 If you tag resources in VMware, you can utilize those tags to filter in the Scalr Cost Manager. After adding credentials, you will see a radio button for "Enabled Detailed Billing" appear, by checking that radio button you can select which tags should be used to filter in Cost Manager:
 
 .. image:: images/tags_cost.png
-   :scale: 40%
+   :scale: 650%

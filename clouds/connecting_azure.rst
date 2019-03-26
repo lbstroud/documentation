@@ -178,4 +178,4 @@ Enable Billing
 To enable billing, which allows for Scalr :ref:`cost_management` to report on Azure costs, please tick the "Enable Detailed Billing" radio button to on. Once that is enabled it may take a few hours for the cost to show up within Scalr. If you tag resources in Azure, you can utilize those tags to filter in the Scalr Cost Manager. After clicking "Enabled Detailed Billing" you can select which tags should be used to filter in Cost Manager:
 
 .. image:: images/tags_cost.png
-   :scale: 40%
+   :scale: 65%
