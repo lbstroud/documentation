@@ -101,7 +101,7 @@ To extend storage, go to the AWS Volumes page, find your volume and click on the
 .. image:: images/storage_aws3.png
    :scale: 70%
 
-.. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
+.. note:: For Linux, Scalr supports extending filesystems for Ext4/XFS volumes. For Windows, Scalr supports extending filesystems for suspended servers that are Windows 2012 or higher and NTFS.
 
 EBS Snapshots can also be taken from within the Servers page by clicking on the actions menu and going down to Create Server Snapshot:
 
@@ -159,6 +159,15 @@ From the screen above you can do the following:
 * Update the size and type of existing disks (if the disk is not attached)
 * Snapshot of the selected volume
 
+If you are planning on extending storage on a volume on a running server in Azure, the volume may need to be detached and/or the server should be stopped prior to doing this. Please see the Azure guidance on this:
+
+.. |aws_storage_link1| raw:: html
+
+   <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks" target="_blank">Deallocate Server to Modify Volumes</a>
+
+* |azure_storage_link1| |NEWWIN|
+
+.. note:: For Linux, Scalr supports extending filesystems for Ext4/XFS volumes. For Windows, Scalr supports extending filesystems for suspended servers that are Windows 2012 or higher and NTFS.
 
 OpenStack Storage Configuration
 -------------------------------
@@ -211,4 +220,4 @@ If you are planning on extending storage on a volume on a running server in VMwa
 .. image:: images/vmware_extend_storage.png
    :scale: 70%
 
-.. note:: Scalr only supports extending filesystems for Ext4/XFS volumes and Linux based operating systems right now.
+.. note:: For Linux, Scalr supports extending filesystems for Ext4/XFS volumes. For Windows, Scalr supports extending filesystems for suspended servers that are Windows 2012 or higher and NTFS.
