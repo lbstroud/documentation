@@ -104,3 +104,11 @@ For informational purposes, if the following events take place directly in VMwar
 * Scalr will give the following error if DRS/SRDS is disabled for Compute Resources/Storage Pods on running Farms: "Unable to launch instance: Object Datastore with managed object reference: was not found." Reenabling that functionality or editing the Farm fixes the issue. A warmup of VMware cache will be required to get everything fully functional.
 * Relocating a server to a linked vCenter that is not configured in Scalr will cause the server to go into a "Missing" state. Scalr will not terminate or shutdown the server, it just won't be able to manage the server.
 * Deleting a scalr-meta Custom Attribute from a single server ends up removing all of the scalr-meta attributes from ALL servers in that vCenter. This is a function of vCenter, Scalr never deletes Custom Attributes.
+
+Enable Cost Tags
+----------------
+
+If you tag resources in VMware, you can utilize those tags to filter in the Scalr Cost Manager. After adding credentials, you will see a radio button for "Enabled Detailed Billing" appear, by checking that radio button you can select which tags should be used to filter in Cost Manager:
+
+.. image:: images/tags_cost.png
+   :scale: 40%

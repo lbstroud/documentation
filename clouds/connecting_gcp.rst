@@ -130,3 +130,8 @@ To enable billing, which allows for Scalr :ref:`cost_management` to report on GC
 
 .. image:: images/GCE-sa-8.png
   :scale: 80%
+
+If you tag resources in GCP, you can utilize those tags to filter in the Scalr Cost Manager. After clicking "Enabled Detailed Billing" you can select which tags should be used to filter in Cost Manager:
+
+.. image:: images/tags_cost.png
+   :scale: 40%
