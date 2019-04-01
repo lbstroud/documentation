@@ -16,6 +16,37 @@ Please find the Scalr Server full list of release notes here: |release_notes| |N
 Docs Links
 ----------
 
+7.14.0
+^^^^^^
+
+* Extending Filesystem on Windows:
+http://docs.scalr.com/en/latest/farms/storage.html
+
+* Adding Cost Tag Information for Azure, GCP, and VMware:
+http://docs.scalr.com/en/latest/clouds/connecting_azure.html#enable-billing
+http://docs.scalr.com/en/latest/clouds/connecting_gcp.html#enable-billing
+http://docs.scalr.com/en/latest/clouds/connecting_vmware.html
+
+* New Script ACLs:
+http://docs.scalr.com/en/latest/scripts/index.html#limit-script-execution
+
+* Policy for Openstack Root Device:
+http://docs.scalr.com/en/latest/sec_comp/policies.html#openstack-policies
+
+* Improved IP Management for GCP and Openstack:
+http://docs.scalr.com/en/latest/farms/index.html#network
+
+* Cost Manager Reports:
+http://docs.scalr.com/en/latest/cost/management.html
+
+* Amazon Linux 2 Support:
+http://docs.scalr.com/en/latest/install_guide/scalarizr_installation.html#supported-server-instance-operating-systems
+
+* Add Multiple Networks to a Farm Role for GCP:
+http://docs.scalr.com/en/latest/farms/index.html#network
+
+
+
 7.13.0
 ^^^^^^
 
