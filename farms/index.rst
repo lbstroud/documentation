@@ -164,7 +164,7 @@ There are two possible hostname sources: a hostname template or an external sour
 .. image:: images/network_add_gcp.png
            :scale: 40%
 
-You will need to specify which network interface is the primary one (default route) and specify if a Public IP is required or not.
+**Subnet and IP**. You can amend the subnet settings made when the Farm Role was added and choose how to assign IP's. Static IPs can be set for AWS, Azure, Openstack, and GCP private IPs if those IPs are available in the cloud provider.
 
 .. _farm_role_orchestration:
 
