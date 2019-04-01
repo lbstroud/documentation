@@ -129,10 +129,19 @@ If you set scaling to Manual there are some options in Scalr for manually scalin
 Network
 ^^^^^^^
 
-.. image:: images/network_t.png
-   :scale: 40%
+The functionality available in the Network tab varies according to the cloud the Farm Role is linked to. These are example screen shots from AWS and GCP based Farm Roles.
 
-In the Network tab you may specify how Scalr should compute the hostname for the Servers in this Farm Role, view the Load Balancer settings, configure subnet and IP address assignment.
+.. |T_AWS| image:: images/network_t_aws.png
+           :scale: 40%
+
+.. |T_GCP| image:: images/network_t_gcp.png
+           :scale: 40%
+
++---------+---------+
+| AWS     | GCP     |
++=========+=========+
+| |T_AWS| | |T_GCP| |
++---------+---------+
 
 **Hostname Source**
 
@@ -146,7 +155,14 @@ There are two possible hostname sources: a hostname template or an external sour
    Template,"Enter the hostname in the text field, and Scalr will assign that hostname to your Servers. You may use :ref:`gvi` in the Hostname template. If the template is left blank, Scalr will use the cloud platform's default hostname, or the Scalr server ID if the cloud platform does not provide a default."
    External,"The :ref:`Webhook and Integration Endpoint <webhooks>` must be created first. Before launching a Server, Scalr will make a call to the selected webhook to retrieve a hostname. This webhook call is made before all the other events related to the Server (BeforeInstanceLaunch, HostInit, etc.) are triggered."
 
-**Load Balancer**. You must link a Load Balancer Service to the Farm and associate the LB with the Farm Role via that interface. The Network tab will show the linked LB once this is done. See :ref:`cloud_services` for more details.
+**Load Balancer (AWS)**. You must link a Load Balancer Service to the Farm and associate the LB with the Farm Role via that interface. The Network tab will show the linked LB once this is done. See :ref:`cloud_services` for more details.
+
+**Subnet and IP (AWS)**. You can amend the subnet settings made when the Farm Role was added and choose how to assign IP's. Static IPs can be set for AWS and Azure private IPs if those IPs are available in the cloud provider.
+
+**Add Network (GCP)**. You can add an additional network interface to your FarmRole.
+
+.. image:: images/network_add_gcp.png
+           :scale: 40%
 
 **Subnet and IP**. You can amend the subnet settings made when the Farm Role was added and choose how to assign IP's. Static IPs can be set for AWS, Azure, Openstack, and GCP private IPs if those IPs are available in the cloud provider.
 
