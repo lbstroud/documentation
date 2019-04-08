@@ -1,9 +1,5 @@
 .. Global definitions for all doc pages
 
-.. image:: /preview.png
-   :scale: 40%
-   :align: right
-
 .. |LEV1| replace:: Scalr
 
 .. |LEV2| replace:: Account
