@@ -1,7 +1,7 @@
 .. include:: GLOBAL.rst
 
-Scalr Documentation Version 2 Preview!
-========================================
+Scalr Documentation
+===================
 
 .. toctree::
    :maxdepth: 3
