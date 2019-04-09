@@ -10,7 +10,7 @@ Definition and Scope
 
 |SCOPE_SCALR| |SCOPE_ACC| |SCOPE_ENV|
 
-The ability to see Cost Analytics exists at the |SCALR|, |ACCOUNT|, and |ENVIRONMENT| scopes. At each scope you will only see the cost related to that scope, for example, at the |SCALR| you will see all of the cost the has rolled up across all |ACCOUNTS| and |ENVIRONMENTS|. If you are logged into a specific |ENVIRONMENT|, you will only see cost for those resources managed within that |ENVIRONMENT|.
+Cost Analytics allows you to track, categorize, and report on your cloud costs across the multiple clouds that are used by your organization. The ability to see Cost Analytics data exists at the |SCALR|, |ACCOUNT|, and |ENVIRONMENT| scopes. At each scope you will only see the cost related to that scope, for example, at the |SCALR| you will see all of the cost the has rolled up across all |ACCOUNTS| and |ENVIRONMENTS|. If you are logged into a specific |ENVIRONMENT|, you will only see cost for those resources managed within that |ENVIRONMENT|.
 
 .. note::
   You will only see cost for those cloud resources that are managed in Scalr.
