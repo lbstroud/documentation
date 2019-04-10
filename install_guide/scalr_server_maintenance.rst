@@ -128,3 +128,33 @@ Using the Scalr Server command-line management tool, make sure the individual se
    zmq_service                      RUNNING   pid 3032, uptime 2 days, 4:08:22
 
 These services should always be in a "RUNNING" state, if there is any other state returned then it should be flagged by your monitoring tool.
+
+Troubleshooting
+---------------
+
+From time to time you may run into issues, the following is a guide on where to look in certain scenarios:
+
+* Servers launched in the cloud are stuck in Pending:
+
+  * Generally this means there is a communication issue between the agent and the Scalr server. Most of the time the issue can be found in /var/log/scalarizr_update.log or scalarizr_debug.log on the server that is being provisioned (agent side).
+
+* Existing servers are stuck in a rebooting or resuming state:
+
+  * Generally this means there is a communication issue between the agent and the Scalr server. Most of the time the issue can be found in /var/log/scalarizr_update.log or scalarizr_debug.log on the server that is being provisioned (agent side).
+
+* An error is received from the cloud provider in the UI:
+
+  * Usually the UI will tell you what the error is (i.e. out of capacity, hit a limit or quota, etc), but if you need more information you can find it on the worker server under /opt/scalr-server/var/log/service/php-cloud_poller_<CloudName>.log (For example, AWS: php-cloud_poller_aws.log)
+
+* You have launched a server, but it fails before an API call is made to the cloud provider:
+
+  * You can usually find more information on the worker in /opt/scalr-server/var/log/service/php-server_status_manager.log
+
+* You cannot log into the UI:
+
+  * If you are using AD, LDAP, or SAML for authentication, first check to make sure there are no issues with the provider and then check the network connection between the Scalr Web/Proxy node and the authentication provider. In most cases, the UI will have display the error that is occurring.
+
+* You have added detailed billing, but information isn't showing up in the Cost Manager or Cost Analytics:
+
+  * All Cost Manager logs are on the worker in /opt/scalr-server/var/log/service/cost-manager.log
+  * Cost Analytics logs are on the worker in /opt/scalr-server/var/log/service/python-analytics_poller.log and python-analytics_processor.log
