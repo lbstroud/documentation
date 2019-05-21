@@ -3,7 +3,7 @@
 .. _deprecation:
 
 Hosted Scalr End Support of Features Notice (**18-Mar-2019**)
-=========================================================
+=============================================================
 
 Over the next few months, Scalr intends to cease support and deprecate from the Scalr product certain legacy functionality, as specified below. The purpose of this communication is to outline what product components are impacted, the timing and roll-out of this plan, and what you may need to do to mitigate any impact to your current operations as a result.
 
@@ -23,7 +23,7 @@ Features impacted:
 |AUTO1| |AUTO2|
 
 * **Scalr Role Builder:** wizard based workflow for creating Roles
-* **DNS Management - Scalr Static Zones:** *.scalr-dns.net zones that are used as static endpoints to built-in automation role.
+* **DNS Management - Scalr Static Zones:** \*.scalr-dns.net zones that are used as static endpoints to built-in automation role.
 * **DNS Management - Custom Zones:** use of Scalr to manage custom DNS zones
 * **Software RAID:** Scalr functionality to create and manage software RAID storage on AWS EBS.
 * **Script Parameter Interpolation:** legacy feature to declare parameters within Scalr scripts like %param%.
@@ -44,7 +44,7 @@ Deprecation Schedule:
 | Scalr Role Builder  |  1-May-2019 | Role Builder will be removed.                   | Standard processes for building Scalr Roles. |
 +---------------------+-------------+-------------------------------------------------+----------------------------------------------+
 | DNS Management -    | 15-Apr-2019 | Scalr will disable and remove all               | Migration to any popular DNS service such as |
-| Scalr Zones         |             | *.scalr-dns.net zones from it’s management.     | Route 53.                                    |
+| Scalr Zones         |             | \*.scalr-dns.net zones from it’s management.    | Route 53.                                    |
 |                     |             | Starting from specified date these zones won’t  |                                              |
 |                     |             | resolve in any IP.                              |                                              |
 +---------------------+-------------+-------------------------------------------------+----------------------------------------------+

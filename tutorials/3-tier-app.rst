@@ -200,6 +200,7 @@ Testing the Application
 
 .. image:: images/Screenshot-9.jpg
    :scale: 90%
+   
 |BR|
 
 .. image:: images/Application-Screenshot.jpg
