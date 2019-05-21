@@ -80,8 +80,9 @@ Scalarizr needs to be able to communicate bi-directionally with the Scalr server
 =====   ============   =========================================  =================================
 Port    Protocol       Direction                                  Usage
 =====   ============   =========================================  =================================
-443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
 80       TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
+443      TCP           Scalr Worker Server > Scalr Proxy Server   Agent Update
 443      TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
 3306     TCP           Scalr proxy Server > DB Instances          MySQL
 5671     TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent (rabbitmq)
