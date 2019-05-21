@@ -69,7 +69,13 @@ Once the Global Variable is created, click save and you will be able to use it i
 Using Remote Lists
 ^^^^^^^^^^^^^^^^^^
 
-The Remote List variable type is used to pull Global Variable values from external sources. An Endpoint must be setup in Scalr to use a Remote List. The Endpoint will pull values from the external source and translate the list into JSON for Scalr to pull. Please see more on Endpoints here: :ref:`webhooks`. There are a few requirements for Remote List Endpoints:
+|SCOPE_SCALR| |SCOPE_ACC| |SCOPE_ENV|
+
+The Remote List variable type is used to pull Global Variable values from external sources.
+
+This option is only available for GV's defined at |SCALR|, |ACCOUNT| and |ENVIRONMENT| scopes.
+
+An Endpoint must be setup in Scalr to use a Remote List. The Endpoint will pull values from the external source and translate the list into JSON for Scalr to pull. Please see more on Endpoints here: :ref:`webhooks`. There are a few requirements for Remote List Endpoints:
 
 * The values list must be returned to Scalr in JSON format.
 * A TTL setting is required in the JSON. The TTL should have a numerical value, this value will determine the time in seconds that the endpoint will recheck for values. If no value is provided, Scalr will default the TTL setting to 0.
