@@ -83,6 +83,7 @@ Port    Protocol       Direction                                  Usage
 443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
 80       TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
 443      TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+3306     TCP           Scalr proxy Server > DB Instances          MySQL
 5671     TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent (rabbitmq)
 6275     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 6276     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
