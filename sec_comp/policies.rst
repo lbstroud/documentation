@@ -63,6 +63,15 @@ Make sure the status is set to "ENFORCED" to enable the policy.
 
 After defining the policy you can add further policies to the policy group. Remember to click "Save" |SAVE|.
 
+Policy Whitelist/Blacklist
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some policy types, such as ``cloud.networks``, allow the reverse logic for a list of allowed resources. By default lists are Whitelists for specifying allowed resources. The Blacklist options specifies resources that are not allowed.
+
+.. image:: images/white_black.png
+   :scale: 70%
+
+
 Using Global Variable in Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
