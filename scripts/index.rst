@@ -48,6 +48,8 @@ Once you are in the scripts screen, click on "New Scalr Script":
 | Script Content | String  | Script contents                                                                                                       |
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 
+.. _git_scripts:
+
 Linking a Git Script
 --------------------
 

@@ -191,11 +191,21 @@ EC2
 ***
 
 .. image:: images/ec2_tab.png
+   :scale: 100%
+
+.. image:: images/ec2_spot.png
+   :scale: 50%
+
+.. image:: images/ec2_cpu.png
    :scale: 50%
 
 .. |SPOT| raw:: html
 
    <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html" target="_blank">Spot Instances</a>
+
+.. |CPU| raw:: html
+
+   <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-optimize-cpu.html" target="_blank">Optimizing CPU Options</a>
 
 .. csv-table::
    :widths: 30,70

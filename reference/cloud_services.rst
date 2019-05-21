@@ -605,7 +605,7 @@ Google Cloud Platform Features and Services
 |MENU_ENV|
 
 .. image:: images/gce_menu.png
-   :scale: 40%
+   :scale: 80%
 
 Persistent Disks
 ^^^^^^^^^^^^^^^^
@@ -661,8 +661,21 @@ Cloud SQL
    :widths: 40,40,20
 
    Description,Scalr Support,External Docs
-   "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational databases on Google Cloud Platform.","Full management of Cloud SQL Instances including linking to Farms for automatic deployment when a Farm is launched.",|LINK_26| |NEWWIN|
+   "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational databases on Google Cloud Platform.","Full management of Cloud SQL Instances including linking to Farms for automatic deployment when a Farm is launched.",|LINK_27| |NEWWIN|
 
+HTTPS Load Balancers
+^^^^^^^^^^^^^^^^^^^^
+
+.. |LINK_GCELB| raw:: html
+
+             <a href="https://cloud.google.com/load-balancing/docs/" target="_blank">GCE Load Balancing</a>
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 40,40,20
+
+   Description,Scalr Support,External Docs
+   "GCE HTTPS Load Balancers provide global and regional load balancing for applications.","Full management of HTTPS load balancers and associated backend services, buckets and instance groups.",|LINK_GCELB| |NEWWIN|
 
 Openstack Features and Services
 -------------------------------
