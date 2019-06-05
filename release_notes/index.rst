@@ -16,6 +16,33 @@ Please find the Scalr Server full list of release notes here: |release_notes| |N
 Docs Links
 ----------
 
+7.15.0
+^^^^^^
+
+* Deprecation of Built-In Automation, please see the Announcements page below.
+
+* Interactive Scripts (global variables created in scripts):
+
+https://docs.scalr.com/en/latest/gvs/index.html#using-global-variables-in-scripts
+
+* Windows 2019:
+
+https://docs.scalr.com/en/latest/install_guide/scalarizr_installation.html#supported-server-instance-operating-systems
+
+* Store Service Catalog Items in Git:
+
+https://docs.scalr.com/en/latest/service_catalog/offerings.html#creating-service-catalog-offerings
+
+* Whitelist/Blacklist Polcies:
+
+https://docs.scalr.com/en/latest/sec_comp/policies.html#policy-whitelist-blacklist
+
+* AWS - Added Support for CPU Options:
+
+https://docs.scalr.com/en/latest/farms/index.html#ec2
+
+
+
 7.14.0
 ^^^^^^
 
