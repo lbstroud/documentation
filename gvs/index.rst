@@ -30,7 +30,7 @@ When accessing a Global Variable, Scalr follows the following algorithm:
 Creating Global Variables
 -------------------------
 
-Global Variables can be created, updated, edited, or deleted at the |SCALR|, |ACCOUNT|, |ENVIRONMENT|, Farm, or Farm Role scopes. To create a Global Variable at the |Scalr|, |Account|, or |Environment| scopes you can click on the Scalr icon on the top left: |MENU_ENV|
+Global Variables can be created, updated, edited, or deleted at the |SCALR|, |ACCOUNT|, |ENVIRONMENT|, Farm, Farm Role or Script scopes. To create a Global Variable at the |Scalr|, |Account|, or |Environment| scopes you can click on the Scalr icon on the top left: |MENU_ENV|
 
 .. |GV| image:: images/gv.png
    :scale: 40%
@@ -91,7 +91,12 @@ Please see the following link for an example. This Webhook returns a JSON file (
 Using Global Variables in Scripts
 ---------------------------------
 
-Global Variables can be passed to scripts that are executed through Scalr orchestration. The following examples are scripts executed on a server whose scope includes a Global Variable with the name "MyGlobalVariable".
+Global Variables from any level can be passed to scripts that are executed through Scalr orchestration. You can also create a Global Variable at the script level so a user will only be prompted for that Global Variable when running that specific script:
+
+.. image:: images/script_gv.png
+   :scale: 50%
+
+The following examples are scripts executed on a server whose scope includes a Global Variable with the name "MyGlobalVariable".
 
 Bash:
 
