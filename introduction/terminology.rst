@@ -178,7 +178,7 @@ Service Catalog offerings can also be parameterised to allow end users some limi
 
 Service Catalog offerings are publish at the |ENVIRONMENT| scope but can be prompted to |ACCOUNT| and |SCALR| scope.
 
-For details on publishing Service Catalog offerings see :ref:`service_catalog`.
+For details on publishing Service Catalog offerings see :ref:`sc_offerings`.
 
 Cost Analytics/Manager
 ----------------------

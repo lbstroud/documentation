@@ -63,7 +63,7 @@ Debian                                      6.x - 8.x
 RHEL / CentOS                               5.x - 7.x
 OEL                                         5.x - 7.x
 Redhat                                      5.x - 7.x
-Windows Server                              2008 R2, 2012(all), and 2016
+Windows Server                              2008 R2, 2012(all), 2016, 2019
 Suse                                        11.3, 11.4, and 12.x
 Amazon Linux                                2, 2013.03, 2014.03, 2014.09, 2015.03, 2015.09, 2016.03, 2016.09
 ========================================    ================================
@@ -80,9 +80,11 @@ Scalarizr needs to be able to communicate bi-directionally with the Scalr server
 =====   ============   =========================================  =================================
 Port    Protocol       Direction                                  Usage
 =====   ============   =========================================  =================================
-443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
 80       TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+443      TCP           Scalr Worker Server > Cloud API            Cloud API Calls
+443      TCP           Scalr Worker Server > Scalr Proxy Server   Agent Update
 443      TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent
+3306     TCP           Scalr proxy Server > DB Instances          MySQL
 5671     TCP           Cloud Instance > Scalr Proxy Server        Scalarizr Agent (rabbitmq)
 6275     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ
 6276     TCP           Between Scalr Server Nodes (excluding DB)  RabbitMQ

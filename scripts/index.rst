@@ -27,7 +27,7 @@ Creating Scripts in Scalr
 Once you are in the scripts screen, click on "New Scalr Script":
 
 .. image:: images/new_script.png
-   :scale: 60%
+   :scale: 45%
 
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 | Item           | Format  | Description                                                                                                           |
@@ -38,6 +38,8 @@ Once you are in the scripts screen, click on "New Scalr Script":
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 | Deprecated     | Binary  | Scripts can be deprecated to prevent further use                                                                      |
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
+| Script Variable| String  | Global Variables can be set at the script level. Users will be prompted to input a value before running the script.   |
++----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 | Shared         | Binary  | Determines if a script can be used at a lower level. This is only seen at the |Account| and |Scalr| scopes.           |
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 | Execution Mode | Binary  | Blocking: Scalarizr will wait for your Script to finish executing before firing and processing further events         |
@@ -47,6 +49,8 @@ Once you are in the scripts screen, click on "New Scalr Script":
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 | Script Content | String  | Script contents                                                                                                       |
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
+
+.. _git_scripts:
 
 Linking a Git Script
 --------------------

@@ -75,10 +75,10 @@ First you need enable access to Azure and obtain the required access keys.
 .. image:: images/Azure-sa-1.png
    :scale: 40%
 
-4. Click on **App registrations** in the left menu.
+4. Click on **App registrations (Legacy)** in the left menu.
 
 .. image:: images/Azure-sa-2.png
-   :scale: 40%
+   :scale: 70%
 
 5. Click on **New application registration**.
 

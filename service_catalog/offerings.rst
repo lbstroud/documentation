@@ -32,11 +32,12 @@ Clicking on |SC1| itself opens the list of available offerings to allow users to
 Creating Service Catalog Offerings
 ----------------------------------
 
+Typically Service Catalog Offerings are created directly from fully configured and tested Farms, but they can also be created manually via the Service Catalogue --> Management screen.
+
+Creating from a Farm
+^^^^^^^^^^^^^^^^^^^^
+
 |SCOPE_ENV|
-
-Typically Service Catalog Offerings are created directly from fully configured and tested Farms.
-
-.. note:: Service Catalog Offerings can be created from the Service Catalogue --> Management screen by copying the Farm Template from another offering and pasting into the template editor. This option is available at all 3 Scopes |SCOPE_SCALR| |SCOPE_ACC| |SCOPE_ENV|.
 
 To create an offering navigate to the Farms list and select Create Offering from the Farm |MENU| button.
 
@@ -50,6 +51,22 @@ The Farm Template is also presented for editing which is covered in `Customising
 
 .. image:: images/edit_offering.png
    :scale: 50%
+
+Creating Manually
+^^^^^^^^^^^^^^^^^
+
+|SCOPE_SCALR| |SCOPE_ACC| |SCOPE_ENV|
+
+Service Catalogue entries can be created manually at all 3 login scopes.
+
+.. image:: images/new_sc.png
+
+New Scalr Offering will present a dialogue identical to the one above but with a blank field for the JSON Farm Template. The template will need to be written manually or copied from another Service Catalogue Offering.
+
+New Git Offering is similar to :ref:`git_scripts`. Instead of a field to enter the JSON there is a set of fields to define the location of the Farm Template in a git repository. The Git repo can be defined previously at any scope or whilst creating the new offering.
+
+.. image:: images/git_offering.png
+   :scale: 80%
 
 .. _basic_templates:
 

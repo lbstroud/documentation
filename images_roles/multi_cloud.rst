@@ -21,7 +21,7 @@ Choosing which cloud to use initially occurs when configuring a Farm Role and ca
 
 The choice of Cloud (and location and other cloud parameters) can be restricted by :ref:`Policy <policy_engine>` |POLICY|.
 
-When a Farm is used to create a :ref:`Service Catalog Offering <service_catalog>` the template will contain the settings of the Cloud(s) that were chosen at the time the Farm Role(s) was created. The Farm Template can be edited to remove these Cloud settings so that an End User launching applications via the Service Catalog will be given the choice of Cloud at the point at which they make the request, subject to policy restrictions. Note these parameters are not just the cloud name and location, but may also include cloud specific details such as instance type, network settings and so on. Below is a simple example.
+When a Farm is used to create a :ref:`Service Catalog Offering <sc_offerings>` the template will contain the settings of the Cloud(s) that were chosen at the time the Farm Role(s) was created. The Farm Template can be edited to remove these Cloud settings so that an End User launching applications via the Service Catalog will be given the choice of Cloud at the point at which they make the request, subject to policy restrictions. Note these parameters are not just the cloud name and location, but may also include cloud specific details such as instance type, network settings and so on. Below is a simple example.
 
 **Farm Template after Creating Offering**
 
@@ -66,4 +66,4 @@ A change like this results in the Service Catalog user being prompted for Cloud 
 .. image:: images/multi-cloud-05.png
    :scale: 50%
 
-Please see the main :ref:`service_catalog` page for full details on configuring Farm Templates for use with Multi-Cloud Roles.
+Please see the main :ref:`sc_offerings` page for full details on configuring Farm Templates for use with Multi-Cloud Roles.
