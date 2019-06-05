@@ -21,6 +21,8 @@ Docs Links
 
 * Deprecation of Built-In Automation, please see the Announcements page below.
 
+https://docs.scalr.com/en/latest/release_notes/announcements.html
+
 * Interactive Scripts (global variables created in scripts):
 
 https://docs.scalr.com/en/latest/gvs/index.html#using-global-variables-in-scripts
