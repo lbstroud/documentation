@@ -27,7 +27,7 @@ Creating Scripts in Scalr
 Once you are in the scripts screen, click on "New Scalr Script":
 
 .. image:: images/new_script.png
-   :scale: 60%
+   :scale: 45%
 
 +----------------+---------+-----------------------------------------------------------------------------------------------------------------------+
 | Item           | Format  | Description                                                                                                           |
