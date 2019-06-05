@@ -5,6 +5,15 @@
 Announcements
 ==============
 
+Built-In Automation Deprecation
+-------------------------------
+
+The following features will no longer be available as of Scalr 7.15.0:
+
+* Role Builder
+* Built-In Automation Roles - This will only impact NEW Farm Roles, existing Farm Roles will continue to work.
+* Script Parameters - Global Variables in scripts has replaced this functionality. 
+
 Hosted Scalr End Support of Features Notice (**18-Mar-2019**)
 -------------------------------------------------------------
 
