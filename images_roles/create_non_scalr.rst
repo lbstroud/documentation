@@ -43,7 +43,7 @@ Linux:
 
 Windows:
 
-* Sysprep
+* Sysprep (Dependent on the Cloud, run the utility that is pre-installed on your Windows server with the Sysprep script. For example: on EC2 Windows 2019 run Ec2LaunchSettings to prepare your system.)
 
 All:
 
