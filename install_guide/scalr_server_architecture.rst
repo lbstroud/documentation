@@ -70,10 +70,5 @@ Hosted Scalr Network Requirements
 If you are using Hosted Scalr, Scalr may communicate with your instances and Cloud APIs from the following networks:
 
 * 184.173.242.32/28
-* 50.23.217.32/28
 * 174.37.32.16/28
-* 174.129.220.222/32
-* 174.132.108.66/32
-* 174.132.124.50/32
-* 130.211.182.124/32
 * 184.73.181.141/32 (only needed on MySQL Role for PHPMyAdmin)
