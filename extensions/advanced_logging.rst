@@ -101,6 +101,9 @@ Once you have installed Fluentd, you'll want to update the config file located i
       <match agent.***>
       type stdout
       </match>
+      <match event.***>
+      type stdout
+      </match>
 
 Once you have updated the configuration, restart the td-agent service.
 
