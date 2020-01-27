@@ -112,7 +112,6 @@ The options in the screenshot are defined as follows (in order):
   * Terminated: If a server is suspended, that server is considered terminated in the min/max scaling count.
 
 * The servers which have been launched the most recently will be scaled down first.
-* By enabling safe shutdown, Scalr will run an "auth-shutdown" script on every Server before terminating it. Depending on the Script's return code, Scalr may abort the scale-down procedure. This option is useful to prevent a Server from being terminated while performing a long-running task. Scalr will terminate an instance ONLY IF the script ``/usr/local/scalarizr/hooks/auth-shutdown`` returns 1. If this script is not found or returns any other value, Scalr WILL NOT terminate that server.
 
 Custom Scaling
 ^^^^^^^^^^^^^^
